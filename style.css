@@ -2,38 +2,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f4f4f4;
-}
-.container {
-    max-inline-size: 800px;
-    margin: auto;
-    background: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-h1, h2 {
-    color: #333;
-}
-.contact-info {
-    margin-bottom: 20px;
-}
-.section {
-    margin-bottom: 20px;
-}
-.job-title {
-    font-weight: bold;
-}
-.job-dates {
-    color: #777;
-}
-.job-description {
-    margin-bottom: 10px;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
     background-color: #e0f7fa; /* Light cyan background for a fresh look */
 }
 .container {
@@ -66,4 +34,5 @@ h1, h2 {
     margin-bottom: 10px;
     color: #333; /* Keep the text color for readability */
 }
+
 
