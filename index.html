@@ -3,53 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
-
     <title>Catherine Matthews - Resume</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            background-color: #f4f4f4;
+            background: linear-gradient(135deg, #ffccda, #ab999e); /* Light pink gradient */
+            background: linear-gradient(135deg, #76535f, #ffe0e9); /* Dark pink to light pink fade */
         }
+
         .container {
             max-inline-size: 800px;
             margin: auto;
             background: #fff;
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 2px solid #ff4081; /* Dark pink border */
         }
+
         h1, h2 {
-            color: #333;
+            color: #593a44; /* Deep purple text */
         }
-        .contact-info {
-            margin-bottom: 20px;
+
+        .contact-info p, .job-location, .education-location {
+            color: #333; /* Dark text */
         }
+
         .section {
-            margin-bottom: 20px;
+            margin-block-end: 20px;
         }
+
         .job-title {
             font-weight: bold;
+            color: #261219; /* Dark pink for job titles */
         }
-        .job-dates {
-            color: #777;
+
+        .job-dates, .education-dates {
+            color: #777; /* Grey color for dates */
         }
-        .job-description {
-            margin-bottom: 10px;
+
+        .job-description, .education {
+            margin-block-end: 10px;
+        }
+
+        a {
+            color: #ff4081; /* Dark pink for links */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-inline-start: 20px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Casey Matthews</h1>
+        <h1>Catherine Matthews</h1>
         <div class="contact-info">
             <p><strong>Phone:</strong> (856) 745-2994</p>
             <p><strong>Email:</strong> caseyvmatthews@gmail.com</p>
             <p><strong>Location:</strong> Philadelphia, PA</p>
-            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/catherine-matthews-110337232/" target="_blank">linkedin.com</a></p>
-            <p><strong>Github:</strong> <a href="https://github.com/mattcat1221" target="_blank">GitHub.com</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/catherine-matthews-110337232/" target="_blank" rel="noopener noreferrer">linkedin.com</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/mattcat1221" target="_blank" rel="noopener noreferrer">GitHub.com</a></p>
         </div>
 
         <div class="section">
@@ -67,8 +88,6 @@
                     </ul>
                 </div>
             </div>
-        <div class="section">
-            <h2>Experience</h2>
             <div class="job">
                 <p class="job-title">Office Administrative Assistant</p>
                 <p class="job-dates">June 2021 – July 2024</p>
