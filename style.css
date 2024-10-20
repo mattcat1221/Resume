@@ -1,57 +1,54 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #e0f7fa; /* Light cyan background for a fresh look */
-}
-.container {
-    max-inline-size: 800px;
-    margin: auto;
-    background: #ffffff; /* White background for content area */
-    padding: 20px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Slightly darker shadow for depth */
-}
-h1, h2 {
-    color: #00796b; /* Teal color for headings for a modern look */
-}
-.contact-info {
-    margin-bottom: 20px;
-    color: #004d40; /* Darker teal for contact info text */
-}
-.section {
-    margin-bottom: 20px;
-    border-left: 4px solid #00796b; /* Left border to emphasize sections */
-    padding-left: 15px; /* Add some padding for section content */
-}
-.job-title {
-    font-weight: bold;
-    color: #00796b; /* Teal color for job titles */
-}
-.job-dates {
-    color: #004d40; /* Darker teal for job dates */
-}
-.job-description {
-    margin-bottom: 10px;
-    color: #333; /* Keep the text color for readability */
-}
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #e0f7fa; /* Light cyan background */
-}
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #ffe5b4, #ffcba4); /* Peach gradient */
+        }
 
-.container {
-    max-inline-size: 800px;
-    margin: auto;
-    background: #ffffff;
-    padding: 20px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-}
+        .container {
+            max-inline-size: 800px;
+            margin: auto;
+            background: #fff5e1; /* Light peach background */
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 2px solid #f4a460; /* Peach border */
+        }
 
-h1, h2 {
-    color: #00796b; /* Teal color */
-}
+        h1, h2 {
+            color: #8b4513; /* Saddle brown text */
+        }
 
+        .contact-info p, .job-location, .education-location {
+            color: #333; /* Dark text */
+        }
 
+        .section {
+            margin-bottom: 20px;
+        }
 
+        .job-title {
+            font-weight: bold;
+            color: #d2691e; /* Chocolate color for job titles */
+        }
+
+        .job-dates, .education-dates {
+            color: #a0522d; /* Sienna color for dates */
+        }
+
+        .job-description, .education {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #f4a460; /* Peach for links */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
